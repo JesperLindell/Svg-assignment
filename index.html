@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>SVG</title>
+</head>
+<body>
+   
+    <main class="main">
+
+        <!-- Png -->
+
+        <div>
+            <img src="./Images/easy-delete.png" alt="Delete sign" style="height: 400px; width: 400px;">
+            <img src="./Images/medium-sceptic.png" alt="sceptic emoji" style="height: 400px; width: 400px;">
+        </div>
+
+        <!-- Svg -->
+
+        <div>
+            <svg width= "400" height="400" viewbox="0 0 400 400" fill= "none" xmlns="http://www.w3.org/2000/svg"> 
+                <circle cx="200" cy="200" r="200" fill="red">
+                    <line points="100,100 300,300 " stroke= "white" stroke-width="10" />
+                    <line points="100,300 300,100 " stroke= "white" stroke-width="10" />
+            </svg>
+            <svg>
+                <use xlink:href="./Images/sceptic-face.svg#sceptic-emoji"></use>
+            </svg>
+
+
+        </div>
+
+
+    
+       
+
+    </main>
+</body>
+</html>
